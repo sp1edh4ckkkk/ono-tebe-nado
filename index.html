@@ -5,6 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a href="">главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <a href="#lots">посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a href="#about">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="">
+        <img class="logo-img" src="images/logo-black.svg">
+      </a>
+      <address class="address">
+        <a class="header__address" style="letter-spacing: 0.01em;" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="header__address" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="header__address">наб. Принсенграхт 263-<br>265, Амстердам</a>
+      </address>
+    </header>
+    <main>
+      <section class="cover">
+        <div class="overlay">
+          <div class="cover__title">
+            <div class="align-text">о<span class="letter-spacing-extended">но</span></div>
+            <div class="align-text_center">те<span class="letter-spacing-extended">бе</span></div>
+            <div class="align-text_right"><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></div>
+          </div>
+          <div class="cover__description">
+            <div class="cover__description-text">аукцион вещей, в которые никто не верил</div>
+            <button class="bet-button">сделать ставку</button>
+          </div>
+        </div>
+      </section>
+      <section class="lots" id="lots">
+        <h1 class="lots__heading">ЛОТЫ</h1>
+        <ul class="lots__card-list">
+          <li class="lots__card-list-item">
+            <a class="card-link">
+              <div class="card card_type_film">
+                <!-- <div class="overlay"></div> -->
+                <div class="card__title">фильм режиссёра, который бросил киношколу</div>
+                <div class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</div>
+              </div>
+            </a>
+          </li>
+          <li class="lots__card-list-item">
+            <a class="card-link">
+              <div class="card card_type_book">
+                <!-- <div class="overlay"></div> -->
+                <div class="card__title">книга, где описан один скучный день из жизни рекламного агента</div>
+                <div class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</div>
+              </div>
+            </a>
+          </li>
+          <li class="lots__card-list-item">
+            <a class="card-link">
+              <div class="card card_type_picture">
+                <!-- <div class="overlay"></div> -->
+                <div class="card__title">картина, которую повторит даже 5-летний сын маминой подруги</div>
+                <div class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <a class="lots__look-more-link">посмотреть больше</a>
+      </section>
+      <section class="about" id="about">
+        <div class="about__logo">
+          <img class="about__logo-image" src="images/logo-white.svg">
+        </div>
+      </section>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
 </html>
