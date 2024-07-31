@@ -82,31 +82,32 @@
 }
 
 .cover__title {
-  margin: 165px auto 0px;
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 100px;
   text-transform: uppercase;
   letter-spacing: 0.3em;
+  margin: 165px auto 0px;
   width: 1000px;
   height: 355px;
   line-height: 1;
 }
 
 .align-text {
+  display: block;
   margin-bottom: 20px;
   line-height: 1.15;
 }
 
 .align-text_center {
   text-align: center;
-  margin-bottom: 20px;
+  line-height: 1;
 }
 
 .align-text_right {
   text-align: end;
-  margin-bottom: auto;
+  line-height: 1;
 }
 
 .letter-spacing-extended {
